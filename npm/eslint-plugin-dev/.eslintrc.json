@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "@cypress/dev",
+    "promise"
+  ],
+  "extends": [
+    "plugin:promise/recommended",
+    "plugin:@cypress/dev/general"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "cli",
+    "packages/*",
+    "npm/*",
+    "tooling/*",
+    "system-tests",
+    "scripts"
+  ],
+  "useWorkspaces": true,
+  "useNx": true,
+  "version": "0.0.0"
+}
